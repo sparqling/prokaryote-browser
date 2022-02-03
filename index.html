@@ -12,28 +12,20 @@
   </head>
 
   <body onload=init()>
-
     <div class="ui-widget">
-
-      <!-- Logo and input forms -->
-
       <div id="initial_input_label"><br>Organisms in taxon: <br><br></div>
-
-    <table width="100%"><tr><td>
-
-      <table>
-	<tr>
-	  <td><label id="further_input_label" for="tags"></label><input id="tags"></td>
-	<tr>
+      <table width="100%">
+        <tr><td>
+          <table>
+	    <tr>
+	      <td><label id="further_input_label" for="tags"></label><input id="tags"></td>
+            <tr>
+          </table>
+        </td><td>
+          <table id="selected_genome" align="right" cellspacing="3">
+          </table>
+        </td></tr>
       </table>
-
-      </td><td>
-
-      <table id="selected_genome" align="right" cellspacing="3">
-      </table>
-
-      </td></tr>
-    </table>
 
       <div id="main_taxon_name_div"></div>
       <div id="sub_title_div"></div>
@@ -73,6 +65,5 @@
       <table border="0" id="details" class="tablesorter"></table>
 
     </div>
-
   </body>
 </html>
